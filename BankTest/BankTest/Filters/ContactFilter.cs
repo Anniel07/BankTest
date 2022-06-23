@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace BankTest.Filters
 {
-    public class ContactFilter
+
+    // filtros para buscar por criterios
+    public class ContactFilter : BaseFilter
     {
         
         public string FirstName { get; set; }
@@ -13,5 +15,6 @@ namespace BankTest.Filters
         public string Address { get; set; }
         public int FromAge { get; set; }
         public int ToAge { get; set; }
+
     }
 }

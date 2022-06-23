@@ -13,7 +13,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BankTest.Data;
-using BankTest.Repository;
+using Advice_API.IoC;
 
 namespace BankTest
 {
@@ -44,7 +44,10 @@ namespace BankTest
 
             services.AddDbContext<BankTestContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("BankTestContext")));
-            services.AddScoped<IContactRepository, ContactRepository>(); // repo pattern
+
+           
+            services.AddRepositories(); 
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

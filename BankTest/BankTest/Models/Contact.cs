@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace BankTest.Models
 {
-    public class Contact
-    {
-        public int ID { get; set; }
 
+    public class Contact : EntityBase
+    {
         [Required]
         [MaxLength(40, ErrorMessage ="The max length must be 40 characteres.")]
         public string FirstName { get; set; }

@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.0" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.17" />
@@ -19,6 +21,10 @@
 
   <ItemGroup>
     <None Include="wwwroot\images\img_avatar1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
