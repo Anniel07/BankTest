@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "daAT1SHp3SJr1oC0WZpmWfAu4kRkU3CI1qHfhiTdYeC7LQHSEhmvoBOOEHdloys6ycVSoXmyIqr66At6IL4Fpg==",
+  "dgSpecHash": "KG+tzuRwxNjPs66ItNNc6lM1V4PSPiTXJc4z4wO4h3dRzOk2zcdJqM8F8TgrZCHlwGXC0v7S4xDliQyOV9pZOg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\net-core+Front\\v-1.1\\BankTest\\BankTest\\BankTest.csproj",
   "expectedPackageFiles": [
@@ -146,8 +146,7 @@
     "C:\\Users\\Leles pc\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Leles pc\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Leles pc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Leles pc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Leles pc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\Leles pc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
